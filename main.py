@@ -31,6 +31,6 @@ while break_condition:
     for i in all_obstacle_list:
         death_count = collision(i, player, death_count, death_label)
 
-    #This loop ends the game if the player gtes to the winning square
+    #This loop ends the game if the player gets to the winning square
     if player.ycor() < -230 and player.xcor() > 325:
         break_condition = False
